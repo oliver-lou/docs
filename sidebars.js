@@ -78,20 +78,46 @@ const sidebars = {
       type: "doc",
       id: "vanus-ai/features",
     },
+
     {
       type: "category",
-      label: "How to",
+      label: "Beginning",
       items: [
-          "vanus-ai/how-to/create-AI",
-          "vanus-ai/how-to/api",
+        "vanus-ai/beginning/create-ai/create-ai",
+        "vanus-ai/beginning/prompt-setting/prompt-setting",
+        "vanus-ai/beginning/large-language-models/large-language-models",
+        "vanus-ai/beginning/knowledge-base/knowledge-base",
+        "vanus-ai/beginning/app-settings/app-settings",
       ],
     },
     {
       type: "category",
+      label: "Optimizing Responses",
+      items: [
+        "vanus-ai/optimizing-responses/optimizing-your-prompt/optimizing-your-prompt",
+        "vanus-ai/optimizing-responses/data-cleaning/data-cleaning",
+        "vanus-ai/optimizing-responses/tuning-parameter/tuning-parameter",
+        "vanus-ai/optimizing-responses/select-appropriate-llm/select-appropriate-llm",
+      ],
+    },
+    {
+      type: "doc",
+      id: "vanus-ai/how-to/Vanus-AI-API-en",
+    },
+    {
+      type: "doc",
+      id: "vanus-ai/how-to/website-embedding",
+    },
+
+    {
+      type: "category",
       label: "Integrations",
       items: [
-          "vanus-ai/integrations/discord",
-          "vanus-ai/integrations/whatsapp",
+         "vanus-ai/integrations/discord/index",
+          "vanus-ai/integrations/slack/index",
+          "vanus-ai/integrations/whatsapp/index",
+          "vanus-ai/integrations/feishu/feishu",
+          "vanus-ai/integrations/dingtalk/index",
       ],
     },
 
@@ -200,6 +226,7 @@ const sidebars = {
             "vanus-connect/connector-guides/sink/mongodb/setup",
             "vanus-connect/connector-guides/sink/mysql/setup",
             "vanus-connect/connector-guides/sink/slack/setup",
+            "vanus-connect/connector-guides/sink/slack-app/setup",
             "vanus-connect/connector-guides/sink/snowflake/setup",
             "vanus-connect/connector-guides/sink/whatsapp/setup",
           ],
