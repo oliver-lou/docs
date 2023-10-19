@@ -63,23 +63,6 @@ const sidebars = {
       defaultStyle: true,
     },
     {
-      type: "doc",
-      id: "vanus-ai/what-is-vanus-ai",
-    },
-    {
-      type: "doc",
-      id: "vanus-ai/language-models",
-    },
-    {
-      type: "doc",
-      id: "vanus-ai/use-cases",
-    },
-    {
-      type: "doc",
-      id: "vanus-ai/features",
-    },
-
-    {
       type: "category",
       label: "Beginning",
       items: [
@@ -150,6 +133,12 @@ const sidebars = {
         id: "vanus-connect/template-guides",
       },
       items: [
+          "vanus-connect/template-guides/shopify-orders-paid/google-sheets",
+          "vanus-connect/template-guides/shopify-product-create/google-sheets",
+          "vanus-connect/template-guides/github-star/discord",
+          "vanus-connect/template-guides/github-issue-open/discord",
+          "vanus-connect/template-guides/github-issue-comment/discord",
+          "vanus-connect/template-guides/shopify-customers-create/mailchimp",
           "vanus-connect/template-guides/github-starred-feishu",
           "vanus-connect/template-guides/github-issue-created-feishu",
           "vanus-connect/template-guides/github-comment-feishu",
@@ -158,11 +147,7 @@ const sidebars = {
           "vanus-connect/template-guides/github-issue-event-slack",
           "vanus-connect/template-guides/github-comment-slack",
           "vanus-connect/template-guides/github-pull-request-opened-slack",
-          "vanus-connect/template-guides/github-comment-discord",
-          "vanus-connect/template-guides/github-open-issue-discord",
           "vanus-connect/template-guides/github-open-pr-discord",
-          "vanus-connect/template-guides/github-star-discord",
-          "vanus-connect/template-guides/github-issue-discord",
           "vanus-connect/template-guides/github-developer-360",
           "vanus-connect/template-guides/github-merge-pr-slack",
           "vanus-connect/template-guides/auth0-login-slack",
